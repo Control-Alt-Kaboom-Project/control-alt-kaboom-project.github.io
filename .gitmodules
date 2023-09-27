@@ -1,0 +1,6 @@
+[submodule "control-static/themes/spectral"]
+	path = control-static/themes/spectral
+	url = https://github.com/sbruder/spectral.git
+[submodule "control-other/themes/piko"]
+	path = control-other/themes/piko
+	url = https://github.com/heksagonnet/piko.git

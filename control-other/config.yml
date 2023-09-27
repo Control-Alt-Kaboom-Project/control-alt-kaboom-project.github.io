@@ -1,0 +1,172 @@
+---
+baseURL: https://alt-kaboom.ca
+languageCode: en-us
+title: Alt-Kaboom
+theme: piko
+paginate: "9"
+copyright: Alt-Kaboom Project (2023)
+googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepWhitespace: false
+
+params:
+  analytics:
+    google:
+      SiteVerificationTag: # Google Site Verification
+    yandex:
+      SiteVerificationTag: # Yandex Site Verification
+    bing:
+      SiteVerificationTag: # Bing Site Verification
+  env: production
+  author: ZeroDay -at- Alt-Kaboom.ca
+  description: Experimental idea-factory, powered by crowd-src'ing and gamified authentic-intellegence
+  math: false
+  images:
+  - "/uploads/hero/change-01.webp"
+  label:
+    title: _Alt-Kaboom_
+    text: Welcome to the future
+    logoHead: /uploads/favicon/android-chrome-512x512.png
+    iconHeight: "35"
+    iconWeight: "35"
+  comments: true
+  mainSections:
+  - learn
+  - explore
+  - contribute
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowRelated: true
+  CookieNotice: We use cookies to improve your experience on our site and to show
+    you relevant advertising.
+  CookieLink: /legal/privacy/#cookies-and-web-beacons
+  CookieButton: Cookies Policy
+  disableAnchoredHeadings: false
+  contactFormAction: # Get link from https://formsubmit.io or https://fabform.io
+  assets:
+    disableFingerprinting: false
+    favicon: /uploads/favicon/favicon.ico
+    favicon16x16: /uploads/favicon/favicon-16x16.png
+    favicon32x32: /uploads/favicon/favicon-32x32.png
+    apple_touch_icon: /uploads/favicon/apple-touch-icon.png
+    safari_pinned_tab: /uploads/favicon/apple-touch-icon.png
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  homepage:
+    # Hero Section
+    disableHeroSection: false
+    heroUpperTitle: 
+    heroTitle: Alt-Kaboom
+    heroDescription: Redefining agile product delivery through crowd-src'd authentic intelligence.
+    heroCTAPrimaryText: Learn
+    heroCTAPrimaryUrl: "/learn/"
+    heroCTASecondaryText: Explore
+    heroCTASecondaryUrl: "/explore/"
+    heroCTAThirdText: Contribute
+    heroCTAThirdUrl: "/contribute/"
+    heroBackgroundImage: "/uploads/hero/change-01.webp"
+    # Blog Section
+    disableBlogSection: false
+    blogTitle: Latest Posts
+    blogDescription: This is my latest blog posts
+    seeMoreText: More Posts
+    # About Section    
+    disableAboutSection: false
+    aboutTitle: About
+    aboutDescription: Just something about me
+    aboutImgUrl: "/uploads/self.webp"
+    aboutContent: Hi guys. This is where you put something about yourself.
+    # Portfolio Section
+    disablePortfolioSection: false
+    portfolioTitle: Portfolio
+    portfolioDescription: Some of my works
+    portfolio:
+    - imageUrl: /uploads/portfolio-1.webp
+      alt: # image alt for better SEO
+      description: Portfolio One.
+      websiteUrl: #
+    - imageUrl: /uploads/portfolio-2.webp
+      alt: # image alt for better SEO
+      description: Portfolio Two.
+      websiteUrl: #
+    - imageUrl: /uploads/portfolio-3.webp
+      alt: # image alt for better SEO
+      description: Portfolio Three.
+      websiteUrl: #
+  # Search Options (https://fusejs.io/)
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: "0"
+    distance: "1000"
+    threshold: "0.4"
+    minMatchCharLength: "0"
+    keys:
+    - title
+    - permalink
+    - summary
+    - content
+  plugins:
+    css:
+    - link: plugins/css/pico.min.css
+    js:
+    - link: plugins/js/feather.min.js
+menus:
+  main: # Main Menu
+  - name: Articles
+    title: Articles
+    pre: book-open
+    url: "/learn/articles"
+    weight: "20"
+  - name: Projects
+    title: Projects
+    pre: monitor
+    url: "/explore/projects"
+    weight: "22"
+  - name: Resources
+    title: Resources
+    pre: server
+    url: "/learn/resources"
+    weight: "23"
+  - name: Search
+    title: Search
+    pre: search
+    url: "/search"
+    weight: "30"
+  - name: Github
+    title: 
+    pre: github
+    url: https://github.com/control-alt-kaboom-project/alt-kaboom-static
+    weight: "50"
+  search: # Search page's quick links
+  - name: Categories
+    title: Categories
+    url: "/categories"
+    weight: "10"
+  - name: Archives
+    title: Archives
+    url: "/archives"
+    weight: "20"
+  - name: Tags
+    title: Tags
+    url: "/tags"
+    weight: "30"
