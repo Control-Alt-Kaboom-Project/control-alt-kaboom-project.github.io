@@ -2,6 +2,8 @@
 
 <!-- --- Insert Workflow Badges Here -->
 
+> NEED TO ADD STATUS BADGES
+
 <!-- --- Start Content -->
 ```(bash)
 888    d8P         d8888 888888b.    .d88888b.   .d88888b.  888b     d888 
