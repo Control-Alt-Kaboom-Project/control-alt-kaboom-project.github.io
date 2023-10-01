@@ -1,0 +1,166 @@
+baseURL = "https://control-alt-kaboom.ca"
+title = "Spectral"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "Control-Alt-Kaboom" # title for frontpage, may include image
+copyright = "Zeroday"
+description = 'Crowd-Src Accelerator.<br />Concept Incubator.<br />Generative A.I.<br />The Future Starts Here.'
+startbuttonText = "Explore"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/learn/'
+title = "Learn"
+
+[[params.menu.main]]
+url = '/projects/'
+title = "Projects"
+
+[[params.menu.main.projects]]
+url = '/projects/alt-kaboom'
+title = "Alt-Kaboom"
+
+
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'A platform for testing any idea that can be imagined...'
+body = '''
+"This model will shorten the time and cost of MVP concepts becoming a reality, and allow for the ideas to be proven in the real world.  Let the community decide what it wants, it just needs our dreams for a little encouragement to get rolling, and with the kaboom-push, our only limitation will be our dreams."
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Kaboom Project Accelerators'
+body = 'Using a disciplined agile development process to crowd-source sprint work. This will change the way we look at the development process.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Kaboom Code Heros'
+body = 'Compensating passion and skills with fractional ownership and revenue sharing. Creating long term economic models for micro-contracters.'
+
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Gamified Re-enforced Learning'
+body = 'Using static and algorythmic analysis to quantify quality in a competition-based arena putting AI up against Real Developers, and using the results as a basis for continuos learning for both parties.'
+
+[params.three]
+enable = true
+title = 'Bad-Donkey'
+body = '''
+A product of generative AI taking control of the SEO and content-based marketting strategies to promote ecommerce effeciency through 24/7 business intellegence based AI management. What happens when we let AI models completely run a store?
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Arcu accumsan"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Ac Augue Eget"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Foo bar"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Baz kram"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Some latin text"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "Nothing important"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = true
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"

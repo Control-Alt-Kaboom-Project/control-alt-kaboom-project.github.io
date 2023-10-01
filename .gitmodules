@@ -1,0 +1,3 @@
+[submodule "control-static/themes/spectral"]
+	path = control-static/themes/spectral
+	url = https://github.com/sbruder/spectral.git
